@@ -1,0 +1,9 @@
+h2 + p {
+    color: red;
+}
+
+ul.list > li{
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+}
