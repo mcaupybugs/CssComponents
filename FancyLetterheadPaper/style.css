@@ -39,3 +39,20 @@
   }
   
   /* Your CSS below here */
+
+  article{
+    background: url(top-image.png) top left no-repeat;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.2)),
+              url(top-image.png) no-repeat left top,
+              url(bottom-image.png) no-repeat left bottom;
+  background-color: white;
+  border-top: 1mm solid black;
+  border-bottom: 1mm solid black;
+  }
+
+  h1{
+    background: url(logo.png);
+    box-shadow: 3px 3px 3px black;
+    border-radius: 64px;
+
+  }
