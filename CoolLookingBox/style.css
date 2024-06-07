@@ -5,14 +5,26 @@ html {
   /* Your CSS below here */
 
   div{
-    display: block;
     width: 200px;
     height: 300px;
     line-height: 300px;
     text-align: center;
     border: 1px solid;
-    max-width: fit-content;
     margin-inline: auto;
     font-size: 1.1em;
     background-color: forestgreen;
+    color: white; /* Bright contrasting color */
+    text-shadow: 2px 2px 5px black; /* Black text shadow */
+    border-radius : 10px;
+    border: 1px solid forestgreen;
+    background: linear-gradient(
+      to bottom right,
+      rgba(0,0,0,0) 0%,
+      rgba(0,0,0,0.2) 30%
+      rgba(0,0,0,0.2) 100%
+    );
+    box-shadow: 
+    0 4px 6px rgba(0, 0, 0, 0.1), /* Standard shadow */
+    inset 4px 4px 6px rgba(255, 255, 255, 0.6), /* Inset white shadow */
+    inset -4px -4px 6px rgba(0, 0, 0, 0.2); /* Inset black shadow */
   }
