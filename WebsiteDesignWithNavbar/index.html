@@ -6,43 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>WebsiteWithNavbar</title>
+    <script src="https://kit.fontawesome.com/8e4ea46adc.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <nav class="vertical-navbar">
-        <img src="Assets/logo.png" alt="logo">
+        <div><img src="Assets/logo.png" alt="logo"><span class="shortcut">Y</span></div>
         <ul>
             <li>
-                <a href="home.png">Home</a><span class="shortcut">H</span>
+                <i class="fa-solid fa-house"></i><a href="home.png">Home</a><span class="shortcut">H</span>
             </li>
-            <li><a href="dashboard.png">My Dashboard</a><span class="shortcut">D</span></li>
-            <li><a href="notifications.png">Notifications</a><span class="notification">2</span></li>
-            <br>
-            <li><a href="news.html">News</a><span class="notification">99+</span></li>
-            <li><a href="events.html">Events</a></li>
+            <li><i class="fa-solid fa-list"></i><a href="dashboard.png">My Dashboard</a><span class="shortcut">D</span>
+            </li>
+            <li><i class="fa-regular fa-envelope"></i><a href="notifications.png">Notifications</a><span
+                    class="notification">2</span></li>
+            <li><i class="fa-regular fa-newspaper"></i><a href="news.html">News</a><span class="notification">99+</span>
+            </li>
+            <li><i class="fa-solid fa-calendar-days"></i><a href="events.html">Events</a></li>
             <li>
-                <a href="people.html">People</a>
-                <ul>
+                <i class="fa-solid fa-person"></i><a href="people.html">People</a>
+                <ul class="dropdown">
                     <li><a href="people1.html">People 1</a></li>
                     <li><a href="people2.html">People 2</a></li>
                 </ul>
             </li>
             <li>
-                <a href="groups.html">Groups</a>
-                <ul>
+                <i class="fa-solid fa-user-group"></i><a href="groups.html">Groups</a>
+                <ul class="dropdown">
                     <li><a href="groups1.html">Groups 1</a></li>
                     <li><a href="groups2.html">Groups 2</a></li>
                     <li><a href="groups3.html">Groups 3</a></li>
                 </ul>
             </li>
             <li>
-                <a href="resources.html">Resources</a>
-                <ul>
+                <i class="fa-solid fa-marker"></i><a href="resources.html">Resources</a>
+                <ul class="dropdown">
                     <li><a href="resources1.html">Resources 1</a></li>
                     <li><a href="resource2.html">Resources 2</a></li>
                 </ul>
             </li>
-            <li><a href="offices.html">Offices</a></li>
+            <li><i class="fa-solid fa-briefcase"></i><a href="offices.html">Offices</a></li>
         </ul>
     </nav>
     <div class="main-content">
