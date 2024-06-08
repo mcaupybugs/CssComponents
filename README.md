@@ -16,5 +16,7 @@
 
 - Fundamental Layout comprehension - [Fundamental Layout Comprehension](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Fundamental_Layout_Comprehension)
 
-- Navigation Bar Layout - ![alt text](Assets/image.png)
+- Navigation Bar Layout - ![Navigation Bar Layout](Assets/image.png)
+
+- Website Design with Navbar - ![Website Design with Navbar](Assets/websitewithnavbar.png)
 
